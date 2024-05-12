@@ -38,7 +38,12 @@ const Header = () => {
           </div>
         )}
       </div>
-      {!isLoading && <img src="/front-view-smiley-ha.webp" />}
+      {!isLoading && (
+        <img
+          src="/front-view-smiley-ha.webp"
+          className="w-full max-w-[180px] sm:max-w-[230px]"
+        />
+      )}
     </header>
   );
 };

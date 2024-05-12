@@ -50,7 +50,7 @@ const App = () => {
     >
       <img
         src="/background.jpeg"
-        className="fixed sm:absolute top-[250px] sm:top-0 left-0 z-[-1] sm:w-full sm:scale-1 scale-[3] sm:h-full rotate-[-90deg] sm:object-cover 1300:object-contain sm:rotate-0"
+        className="fixed sm:absolute top-[250px] sm:top-0 left-0 z-[-1] sm:w-full sm:scale-1 scale-[3] sm:h-full rotate-[-90deg] sm:object-cover 1300:object-contain sm:rotate-0 opacity-[.7]"
         alt=""
       />
       <TermsOfUseModal />

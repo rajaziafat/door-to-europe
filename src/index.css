@@ -15,7 +15,7 @@
 }
 
 body {
-  @apply scrollbar scrollbar-thumb-themeBlue scrollbar-thin scrollbar-track-themeStepperGrey overflow-x-hidden;
+  @apply scrollbar scrollbar-thumb-themeBlue scrollbar-thin scrollbar-track-themeStepperGrey overflow-x-hidden bg-[#000000];
 }
 @media (max-width: 768px) {
   .button-container {

@@ -117,9 +117,10 @@ const FormButtons = () => {
       }
     } catch (error) {
       console.log("Error: ", error);
+    } finally {
+      setBtnLoading(false);
+      setIsLoading(false);
     }
-
-    setBtnLoading(false);
 
     if (currentStep === 5) {
       setCurrentStep((prev) => prev + 1);

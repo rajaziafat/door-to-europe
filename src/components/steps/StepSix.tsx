@@ -8,7 +8,6 @@ import {
   inputFieldContainerStyles,
   inputFieldStyles,
   stepContainerStyles,
-  subHeadingStyles,
 } from "../../utils/styles";
 import TermsAndPrivacyAgreement from "../TermsAndPrivacyAgreement";
 
@@ -21,14 +20,18 @@ const StepSix = () => {
       {/* <h3 className={headingStyles}>
         לתוצאות בדיקת ההתאמה לטיפול החדשני של קליניקה כרמל
       </h3> */}
-      <h4 className={subHeadingStyles}>
+      <h4
+        className={
+          "text-[27px] md:text-4xl font-[600] text-center leading-[1.1] md:leading-[1.1]"
+        }
+      >
         על סמך הנתונים שהזנת, ייתכן שמגיע לך לקבל דרכון רומני .
         <br className="sm:flex hidden" />
          אודה למילוי פרטי התקשרות כדי שנוכל להשלים את בדיקת הזכאות. 
       </h4>
       <h4
         className={
-          "text-[15px] md:text-4xl font-[800] text-center leading-4 md:leading-[1.1]"
+          "text-[26px] md:text-4xl font-[600] text-center leading-4 md:leading-[1.1]"
         }
       >
         מה מספר הטלפון שלך ?
