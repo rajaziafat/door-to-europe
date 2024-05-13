@@ -83,11 +83,11 @@ const FormButtons = () => {
           body: JSON.stringify(payload),
         });
 
-        // TagManager.dataLayer({
-        //   dataLayer: {
-        //     event: `registration_complete_carmel_clinic`,
-        //   },
-        // });
+        TagManager.dataLayer({
+           dataLayer: {
+             event: `registration_complete_door_to_europe`,
+          },
+         });
 
         // localStorage.setItem("formId", v4());
 
@@ -104,7 +104,7 @@ const FormButtons = () => {
       } else {
         TagManager.dataLayer({
           dataLayer: {
-            event: `step_${currentStep}_complete_carmel_clinic`,
+            event: `step_${currentStep}_complete_door_to_europe`,
           },
         });
       }
