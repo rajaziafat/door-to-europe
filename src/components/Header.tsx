@@ -18,7 +18,7 @@ const Header = () => {
           </div>
         )}
         <img
-          src="/logo.webp"
+          src="/Group 597.png"
           className=" min-w-36 md:max-w-none md:max-h-none "
           // className="max-w-20 max-h-20 w-36 md:max-w-none md:max-h-none "
           alt="Carmel Clinic Logo"
